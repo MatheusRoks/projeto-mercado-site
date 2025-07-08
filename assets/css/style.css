@@ -51,7 +51,7 @@ h1{
         -1px 1px 0 var(--cor2),
         1px 1px 0 var(--cor2);
 }
-p{
+p.p-header{
     text-align: center;
     padding-bottom: 20px;
     font-family: Lato;
