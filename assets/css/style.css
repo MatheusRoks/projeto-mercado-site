@@ -25,8 +25,7 @@ header{
 .div-imagem-header{
     width: 10vw;
     display: inline-block;
-    position: left;
-    padding: 10px;
+    padding: 0px 10px 10px 10px;
 
 }
 
@@ -43,9 +42,19 @@ header{
 
 h1{
     text-align: center;
+    font-size: 9vh;
+    padding-top: 20px;
 }
 p{
     text-align: center;
+    padding-bottom: 20px;
+}
+
+
+main{
+    background-color: rgba(211, 211, 211, 0.575);
+    max-width: 90vw;
+    margin: 0 10vh
 }
 
 
@@ -60,4 +69,8 @@ p{
 
 .container::-webkit-scrollbar{
     display: none;
+}
+
+footer{
+    background-color: black;
 }
