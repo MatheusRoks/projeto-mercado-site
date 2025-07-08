@@ -22,27 +22,9 @@ header{
     background-color: var(--cor3);
 }
 
-.div-imagem-header{
-    width: 10vw;
-    display: inline-block;
-    padding: 0px 10px 10px 10px;
-
-}
-
-.externa{
-    width: 80vw;
-    display: inline-block;
-    position: relative;
-}
-
-.interna{
-    position: absolute;
-    margin: auto;
-}
-
 h1{
     text-align: center;
-    font-size: 9vh;
+    font-size: 2em;
     padding-top: 20px;
 }
 p{
