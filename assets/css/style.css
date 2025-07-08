@@ -54,7 +54,8 @@ p{
 main{
     background-color: rgba(211, 211, 211, 0.575);
     max-width: 90vw;
-    margin: 0 10vh
+    min-width: 300px;
+    margin: auto;
 }
 
 
