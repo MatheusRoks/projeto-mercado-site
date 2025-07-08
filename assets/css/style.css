@@ -17,8 +17,10 @@
 :root{
     --cor1: black;
     --cor2: white;
-    --cor3: blue; 
-    --cor4: red;
+    --cor3: #3D55DC; 
+    --cor4: rgb(233, 21, 21);
+    --cor5: #d3d3d393;
+    --cor6: #3B84D9;
 }
 
 *{
@@ -33,7 +35,7 @@ body{
 }
 
 header{
-    background-color: var(--cor3);
+    background-color: var(--cor4);
 }
 
 h1{
@@ -42,6 +44,12 @@ h1{
     padding-top: 20px;
     font-family: lato;
     font-weight: bold;
+    color: var(--cor3);
+    text-shadow:
+        -1px -1px 0 var(--cor2),
+        1px -1px 0 var(--cor2),
+        -1px 1px 0 var(--cor2),
+        1px 1px 0 var(--cor2);
 }
 p{
     text-align: center;
@@ -49,9 +57,18 @@ p{
     font-family: Lato;
 }
 
+.p-header{
+    color: var(--cor3);
+    text-shadow: 
+        1px -1px 0 var(--cor2),
+        1px -1px 0 var(--cor2),
+        -1px 1px 0 var(--cor2),
+        1px 1px 0 var(--cor2);
+        }
+
 
 main{
-    background-color: rgba(211, 211, 211, 0.575);
+    background-color: var(--cor5);
     max-width: 90vw;
     min-width: 300px;
     margin: auto;
@@ -72,7 +89,7 @@ main{
 }
 
 footer{
-    background-color: black;
-    color: white;
+    background-color: var(--cor1);
+    color: var(--cor2);
     padding: 10px;
 }
