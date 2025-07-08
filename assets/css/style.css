@@ -12,6 +12,43 @@
     padding: 0;
 }
 
+body{
+    background: var(--cor1) url(../image/fundo.jpg) center center no-repeat fixed
+    ;
+    background-size: cover;
+}
+
+header{
+    background-color: var(--cor3);
+}
+
+.div-imagem-header{
+    width: 10vw;
+    display: inline-block;
+    position: left;
+    padding: 10px;
+
+}
+
+.externa{
+    width: 80vw;
+    display: inline-block;
+    position: relative;
+}
+
+.interna{
+    position: absolute;
+    margin: auto;
+}
+
+h1{
+    text-align: center;
+}
+p{
+    text-align: center;
+}
+
+
 .container{
     display: flex;
     overflow-x: auto;
