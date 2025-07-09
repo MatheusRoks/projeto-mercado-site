@@ -52,6 +52,7 @@ header{
         -1px 1px 0 var(--cor2),
         1px 1px 0 var(--cor2);
 }
+
 p.p-header{
     text-align: center;
     padding-bottom: 20px;
@@ -67,8 +68,26 @@ p.p-header{
         1px -1px 0 var(--cor2),
         -1px 1px 0 var(--cor2),
         1px 1px 0 var(--cor2);
-        }
+}
 
+.img-whatsapp{
+    padding-left: 10px;
+}
+
+.whatsapp{
+    text-decoration: none;
+    padding: 10px;
+    font-family: lato, sans-serif;
+    font-weight: bold;
+    color: var(--cor2);
+    display: inline-block;
+    margin-bottom: 10px;
+}
+
+.whatsapp:hover{
+    background-color: #3b85d960;
+    border-radius: 10px;
+}
 
 main{
     background-color: var(--cor5);
@@ -92,6 +111,20 @@ main{
         -1px 1px 0 var(--cor7),
         1px 1px 0 var(--cor7);
 
+}
+
+.h1-acougue{
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 10px;
+    font-size: 1.8em;
+    font-weight: bold;
+    color: var(--cor3);
+    text-shadow: 
+        -1px -1px 0 var(--cor2),
+        1px -1px 0 var(--cor2),
+        -1px 1px 0 var(--cor2),
+        1px 1px 0 var(--cor2);
 }
 
 .h2-acougue, .h2-main{
@@ -141,4 +174,22 @@ footer{
     color: var(--cor2);
     padding: 10px;
     text-align: center;
+}
+
+
+
+.galeria {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.imagem-container {
+    margin: 10px;
+    text-align: center;
+}
+.imagem-container img {
+    max-width: 150px; /* Ajuste o tamanho máximo da imagem */
+    height: auto;
+    border: 1px solid #ddd;
+    padding: 5px;
 }
