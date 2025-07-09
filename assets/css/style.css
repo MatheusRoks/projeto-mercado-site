@@ -27,6 +27,7 @@
 *{
     margin:0;
     padding: 0;
+    font-family: lato, sans-serif;
 }
 
 body{
@@ -57,9 +58,6 @@ p.p-header{
     text-align: center;
     padding-bottom: 20px;
     font-family: Lato;
-}
-
-.p-header{
     color: var(--cor3);
     font-weight: bold;
     font-size: 1.5em;
@@ -85,10 +83,6 @@ nav>a:hover{
     border-radius: 10px;
 }
 
-.img-whatsapp{
-    padding-left: 10px;
-}
-
 .whatsapp{
     text-decoration: none;
     padding: 10px;
@@ -100,6 +94,7 @@ nav>a:hover{
 }
 
 .whatsapp:hover{
+    text-decoration: underline;
     background-color: #3b85d960;
     border-radius: 10px;
 }
@@ -175,8 +170,10 @@ main{
     text-align: right;
     text-decoration: none;
     color: var(--cor1);
+    font-size: 1.5em;
     display: block;
     margin-right: 10px;
+    
 }
 
 .mais-acougue:hover, .mais-ofertas-link:hover{
@@ -198,6 +195,24 @@ main{
     display: none;
 }
 
+.galeria {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.imagem-container {
+    margin: 10px;
+    text-align: center;
+}
+
+.imagem-container img {
+    max-width: 150px; /* Ajuste o tamanho máximo da imagem */
+    height: auto;
+    border: 1px solid #ddd;
+    padding: 5px;
+}
+
 footer{
     background-color: var(--cor1);
     color: var(--cor2);
@@ -205,20 +220,3 @@ footer{
     text-align: center;
 }
 
-
-
-.galeria {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-}
-.imagem-container {
-    margin: 10px;
-    text-align: center;
-}
-.imagem-container img {
-    max-width: 150px; /* Ajuste o tamanho máximo da imagem */
-    height: auto;
-    border: 1px solid #ddd;
-    padding: 5px;
-}
