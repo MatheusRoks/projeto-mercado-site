@@ -70,6 +70,24 @@ p.p-header{
         1px 1px 0 var(--cor2);
 }
 
+nav>a{
+    text-decoration: none;
+    text-decoration: none;
+    padding: 10px;
+    font-family: lato, sans-serif;
+    font-weight: bold;
+    color: var(--cor2);
+    display: inline-block;
+    margin-bottom: 10px;
+}
+
+nav>a:hover{
+    background-color: #3b85d960;
+    border-radius: 10px;
+}
+.primeiro{
+    margin-left: 10px;
+}
 .img-whatsapp{
     padding-left: 10px;
 }
@@ -114,6 +132,20 @@ main{
 }
 
 .h1-acougue{
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 10px;
+    font-size: 1.8em;
+    font-weight: bold;
+    color: var(--cor3);
+    text-shadow: 
+        -1px -1px 0 var(--cor2),
+        1px -1px 0 var(--cor2),
+        -1px 1px 0 var(--cor2),
+        1px 1px 0 var(--cor2);
+}
+
+.h1-maisofertas{
     text-align: center;
     padding-top: 30px;
     padding-bottom: 10px;
