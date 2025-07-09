@@ -21,6 +21,7 @@
     --cor4: rgb(233, 21, 21);
     --cor5: #d3d3d393;
     --cor6: #3B84D9;
+    --cor7: rgb(231, 231, 13);
 }
 
 *{
@@ -38,7 +39,7 @@ header{
     background-color: var(--cor4);
 }
 
-h1{
+.h1-header{
     text-align: center;
     font-size: 2em;
     padding-top: 20px;
@@ -75,13 +76,56 @@ main{
     min-width: 300px;
     margin: auto;
     margin-bottom: 10px;
-    padding-bottom: 10px;
+    padding-bottom: 30px;
 }
 
+.h1-main{
+    text-align: center;
+    font-size: 2em;
+    padding-top: 30px;
+    font-family: lato;
+    font-weight: bold;
+    color: var(--cor4);
+    text-shadow:
+        -1px -1px 0 var(--cor7),
+        1px -1px 0 var(--cor7),
+        -1px 1px 0 var(--cor7),
+        1px 1px 0 var(--cor7);
+
+}
+
+.h2-acougue, .h2-main{
+   text-align: center;
+   padding-top: 30px;
+   padding-bottom: 10px;
+   font-size: 1.8em;
+   font-weight: bold;
+   color: var(--cor3);
+       text-shadow: 
+        -1px -1px 0 var(--cor2),
+        1px -1px 0 var(--cor2),
+        -1px 1px 0 var(--cor2),
+        1px 1px 0 var(--cor2);
+   
+}
+
+.mais-acougue, .mais-ofertas-link{
+    text-align: right;
+    text-decoration: none;
+    color: var(--cor1);
+    display: block;
+    margin-right: 10px;
+}
+
+.mais-acougue:hover, .mais-ofertas-link:hover{
+    text-decoration: underline; 
+}
 
 .container{
     display: flex;
     overflow-x: auto;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 
 .container img{
