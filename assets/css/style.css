@@ -71,7 +71,7 @@ p.p-header{
 
 main{
     background-color: var(--cor5);
-    max-width: 90vw;
+    max-width: 800px;
     min-width: 300px;
     margin: auto;
 }
@@ -95,8 +95,4 @@ footer{
     color: var(--cor2);
     padding: 10px;
     text-align: center;
-    position: absolute;
-    margin: 0;
-    width: 100%;
-
 }
