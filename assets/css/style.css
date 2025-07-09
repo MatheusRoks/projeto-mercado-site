@@ -71,9 +71,11 @@ p.p-header{
 
 main{
     background-color: var(--cor5);
-    max-width: 800px;
+    max-width: 1300px;
     min-width: 300px;
     margin: auto;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
 }
 
 
